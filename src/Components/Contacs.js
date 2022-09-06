@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contacs() {
   return (
-    <div>
+    <div className="mt-[20%]">
       <p className="font-bold text-[40px] text-center">Contact Me</p>
       <div className="flex items-center justify-center">
         <div className="bg-black w-[30px] mt-[12px] h-[3px]"></div>
