@@ -1,4 +1,5 @@
 import React from 'react'
+import Foto from '../Assets/test2.jpeg'
 
 function About() {
   return (
@@ -9,8 +10,9 @@ function About() {
         <p className="text-[#9a9483] text-center mx-[5px] text-[20px]">who i am</p>
         <div className="bg-black w-[30px] mt-[12px] h-[3px]"></div>
       </div>
-      <div className="flex items-start my-[20px] mt-[4%] ml-[20%]">
-        <div className="border border-black w-[400px] h-[400px] rounded-lg"></div>
+
+      <div className="flex items-start my-[20px] mt-[4%] justify-center">
+        <img src={Foto} alt="" className="w-[350px] h-full" />
         <div className="mt-[40px] ml-[8%]">
           <p>Lorem ipsum dolor sit amet consectetur</p>
           <p className="py-[20px] text-justify">

@@ -14,22 +14,22 @@ function Contacs() {
         <div className="mt-2 flex items-center space-x-8">
           <span className="material-symbols-outlined">call</span>
           <div>
-            <p>Call or Whatsapp Me</p>
+            <p className="font-bold">Call or Whatsapp Me</p>
             <p>dasdasdas</p>
           </div>
         </div>
         <div className="mt-2 flex items-center space-x-8">
-          <span className="material-symbols-outlined">call</span>
+          <span className="material-symbols-outlined">email</span>
           <div>
-            <p>Call or Whatsapp Me</p>
+            <p className="font-bold">Email</p>
             <p>dasdasdas</p>
           </div>
         </div>
         <div className="mt-2 flex items-center space-x-8">
-          <span className="material-symbols-outlined">call</span>
+          <span class="material-symbols-outlined">location_on</span>
           <div>
-            <p>Call or Whatsapp Me</p>
-            <p>dasdasdas</p>
+            <p className="font-bold">Location</p>
+            <p>Pekanbaru, Indonesia</p>
           </div>
         </div>
       </div>

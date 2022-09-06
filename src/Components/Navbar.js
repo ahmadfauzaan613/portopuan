@@ -7,11 +7,10 @@ function Navbar() {
         Portofo<span className="text-[#99a799]">lio.</span>
       </p>
       <div className="flex items-center space-x-12">
-        <p className="text-white cursor-pointer">1</p>
-        <p className="text-white cursor-pointer">2</p>
-        <p className="text-white cursor-pointer">3</p>
-        <p className="text-white cursor-pointer">4</p>
-        <p className="text-white cursor-pointer">5</p>
+        <p className="text-white cursor-pointer">Home</p>
+        <p className="text-white cursor-pointer">About Me</p>
+        <p className="text-white cursor-pointer">Portofolio</p>
+        <p className="text-white cursor-pointer">Contact Me</p>
       </div>
     </div>
   )
